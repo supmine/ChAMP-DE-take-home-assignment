@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # ETL for pandas if data source is database may be change some code
-# Example: pd.read_sql_table('table_name', 'postgres:///db_name') 
+# Example: pd.read_sql_table('table_name', 'postgres:///db_name')
 
 class ETL:
     """ETL class for data cleaning and export to csv file"""
