@@ -11,3 +11,11 @@ Assumption (fyi: This solution is not the best time complexity)
 8. mask email by fixing star char (*) in the middle of email
 9. mask phone by dynamic X char in the middle of phone number ( 9 digit phone number = 4X, 10 digit phone number = 5X)
 
+## Run Airflow 
+
+1. Set environment variable in docker-compose.yml \
+```AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL: 10``` 
+2. Add mount volume in docker-compose.yaml \
+```- ./documents:/home/airflow/documents```
+3. Run command in terminal \
+```docker compose --profile flower up``` 
