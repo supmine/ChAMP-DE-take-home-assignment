@@ -1,5 +1,7 @@
 # ChAMP-DE-take-home-assignment
 
+Problem: https://docs.google.com/document/d/1eADEBn5XQhyUj_kc7-3R656qgQEiwYkgDcXgeHysPCc/edit#heading=h.msg0edfrbfja
+
 Assumption (fyi: This solution is not the best time complexity)
 1. ISO format YYYY-MM-DD in A.D year
 2. assume input is csv of 4 column
